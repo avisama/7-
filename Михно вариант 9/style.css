@@ -1,0 +1,305 @@
+body {
+  margin:0px;
+  padding:0px;
+  font: 14px Georgia, serif;
+  background: #2F2626;
+  color: #eee;
+}
+ul {
+
+  list-style: none;
+
+  display: block;
+
+  margin:0px;
+
+  padding:0px;
+}
+ul:after {
+
+  display: block;
+ 
+  float: none;
+  content: ' ';
+  clear: both;
+}
+ul.mmenuu > li {
+
+  float: left;
+
+  position: relative;
+}
+ul.mmenuu > li > a {
+
+  display: block;
+
+  color: #fff;
+
+  padding: 10px;
+
+  text-decoration: none;
+
+  background-color: #da570f;
+}
+ul.mmenuu > li > a:hover {
+
+  background-color: #eb9316;
+}
+ul.ssubmenuu {
+  position: absolute;
+  width: 240px;
+  top: 37px;
+  left:0px;
+
+  display: none;
+  background-color: white;
+}
+ul.ssubmenuu > li {
+
+  display: block;
+}
+ul.ssubmenuu > li > a {
+
+  display: block;
+
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #da570f;
+}
+ul.ssubmenuu > li > a:hover {
+  background-color: #eb9316;
+  text-decoration: underline;
+}
+ul.mmenuu > li:hover > ul.ssubmenuu {
+  display: block;
+}
+
+.nav-wrap{
+  position: absolute;
+  left: 50%;
+  top: 80px;
+}
+
+.logo{
+  width: 300px;
+  height: 200px;
+}
+
+.header{
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(#da570f,#2F2626);
+}
+
+.upimg{
+  width:324px ;
+  height: 211px;
+  padding: 70px;
+  margin-top: 20px;
+}
+
+.zagup{
+  text-transform: uppercase;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  left: 30%;
+  top: 23%;
+}
+
+.upinfo{
+  text-transform: uppercase;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  left: 30%;
+  top: 35%;
+  z-index: 2;
+}
+
+.learnnextup{
+  position: absolute;
+  text-decoration: none;
+  width: 100px;
+  height: 17px;
+  padding: 10px;
+  background-color: #da570f;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  top: 70%;
+  left: 60%;
+}
+
+.learnnextup:hover{
+  background-color: #eb9316;
+}
+
+.zaghz{
+  text-transform: uppercase;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  left: 30%;
+  top: 90%;
+}
+
+.hzimg{
+  width:324px ;
+  height: 211px;
+  padding: 70px;
+  margin-top: 20px;
+}
+
+.hzinfo{
+  text-transform: uppercase;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  left: 30%;
+  top: 96%;
+}
+
+.learnnexthz{
+  position: absolute;
+  text-decoration: none;
+  width: 100px;
+  height: 17px;
+  padding: 10px;
+  background-color: #da570f;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  top: 113%;
+  left: 60%;
+}
+
+.learnnexthz:hover{
+  background-color: #eb9316;
+}
+.blocknews{
+  position: absolute;
+  left: 80%;
+  top: 30%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bleachimg{
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  margin-right: 50px;
+} 
+
+.unesprizrakami{
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.ssubmenuu{
+  position: relative;
+  z-index: 1;
+}
+
+.zagnewsbleach{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 160px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+.toroimg{
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  margin-right: 50px;
+  margin-top: 200px;
+} 
+
+.torolink{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 365px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+.toro{
+  position: absolute;
+  width: 100%;
+  margin-top: 130px;
+}
+
+.podval{
+  width: 100%;
+  height: 200px;
+  background-color: #330202;
+}
+
+.zagpodvala{
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
+  font-size: 18px;
+  left: 30%;
+}
+
+.linkpodval{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  top: 25%;
+  left: 30%;
+  margin-top: 60px;
+}
+
+.linkpodvalsoc{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  top:6%;
+  left: 60%;
+  
+}
+
+.zagpodvala2{
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
+  font-size: 18px;
+  left: 60%;
+  top: 129%;
+}
+
+.vk{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  top:6%;
+  left: 48.2%;
+}
+
+
+.search{
+  width: 250px;
+  height: 35px;
+  position: relative;
+  color: #fff;
+  left: 80%;
+  margin-top:30px ;
+  background: none;
+  border-radius:10px ;
+  border: 2px #da570f solid;
+}
+

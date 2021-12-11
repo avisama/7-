@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    resize: both;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background: #FFB840;
+    
+}
+
+.mainlogo{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 20px;
+    top: 15px;
+}
+
+.reg{
+    position: absolute;
+    left: 75%;
+    top: 65px;
+    text-decoration: none;
+    color:#fff;
+    transition: all .3s;
+}
+
+.reg:hover{
+    transform: scale(1.1);
+}
+
+.login{
+    position: absolute;
+    left: 85%;
+    top: 65px;
+    text-decoration: none;
+    color:#fff;
+    transition: all .3s;
+}
+
+.login:hover{
+    transform: scale(1.1);
+}
+
+.jeans{
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    left: 4%;
+    top:180px;
+}
+.jeanstxt{
+    position: absolute;
+    top: 210px;
+    left: 30%;
+    font-size: 18px;
+}
+
+.hot{
+    position: absolute;
+    width: 270px;
+    height: 280px;
+    left: 25%;
+    top: 70%;
+}
+
+.hotlink{
+    position: absolute;
+    left: 25%;
+    top: 110%;
+    text-decoration: none;
+    color:#000;
+    transition: all .3s;
+}
+
+
+.hotlink:hover{
+    transform: scale(1.1);
+}
+
+.official{
+    position: absolute;
+    width: 270px;
+    height: 280px;
+    left: 50%;
+    top: 70%;
+}
+
+.offlink{
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    text-decoration: none;
+    color:#000;
+    transition: all .3s;
+}
+
+.offlink:hover{
+    transform: scale(1.1);
+}
+
+.tsh{
+    position: absolute;
+    width: 270px;
+    height: 280px;
+    left: 25%;
+    top: 115%;
+}
+
+.tshlink{
+    position: absolute;
+    left: 25%;
+    top: 155%;
+    text-decoration: none;
+    color:#000;
+    transition: all .3s;
+}
+
+.tshlink:hover{
+    transform: scale(1.1);
+}
+
+.jeansimg{
+    position: absolute;
+    width: 270px;
+    height: 280px;
+    left: 50%;
+    top: 115%;
+}
+
+.jeanslink{
+    position: absolute;
+    left: 50%;
+    top: 155%;
+    text-decoration: none;
+    color:#000;
+    transition: all .3s;
+}
+
+.jeanslink:hover{
+    transform: scale(1.1);
+}
+
+
+.podval{
+    width: 100%;
+    height: 220px;
+    background-color: #FFB840;
+    margin-top: 80%;
+    
+}
+
+.podvaltxt{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: 30%;
+    text-transform: uppercase;
+}
+
+.youtube{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 60%;
+    position: absolute;
+    top: 151.5%; 
+}
+
+.instagram{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 60%;
+    margin-top: 13px;
+    position: absolute;
+    top: 152.5%;
+}
+
+.facebook{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 60%;
+    margin-top: 17px;
+    position: absolute;
+    top: 155%;
+}
+
+.vk{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 60%;
+    margin-top: 23px;
+    position: absolute;
+    top: 157%;
+}
+
+
+.podvtxt{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: 30%;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    
+}
+
+.soctxt{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: 55%;
+    text-transform: uppercase;
+    top: 0px;
+}
+
+
+
+.headsoc{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: #fff;
+    left: 55%;
+    margin-top: 0;
+    top: 183%;
+    text-transform: uppercase;
+}
+
+.youtube{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 186.8%;
+    margin-left: 55%;
+}
+
+.instagram{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 188%;
+    margin-left: 55%;
+}
+
+.facebook{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 190.5%;
+    margin-left: 55%;
+}
+
+.vk{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 193%;
+    margin-left: 55%;
+}
