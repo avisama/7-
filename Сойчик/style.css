@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #7109AA;
+}
+
+.logo{
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+}
+
+.covidlink{
+    position: absolute;
+    text-decoration: none;
+    top: 85px;
+    left: 50%;
+    color: #fff;
+}
+
+.simptomilink{
+    position: absolute;
+    text-decoration: none;
+    top: 85px;
+    left: 60%;
+    color:#fff;
+}
+
+.search{
+    position: absolute;
+    text-decoration: none;
+    top: 85px;
+    left: 75%;
+    color:#fff;
+    border-color:#000 ;
+    border: 2px solid;
+    border-radius: 3px;
+    background: none;
+    width: 250px;
+    height: 30px;
+}
+
+.vaccine{
+    width: 100%;
+    
+}
+
+.covidinfo{
+    padding: 20px;
+    font-size: 24px;
+}
+
+.simptomiimg{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 65%;
+}
+
+.simptomiinfo{
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+
+.simptomi{
+    padding: 20px;
+    font-size: 24px;
+}
+
+.vozcovid{
+    position: absolute;
+    display: inline-flex;
+    left: 15%;
+}
+
+.voz{
+    width: 550px;
+    height: 600px;
+}
+
+.covid{
+    margin-top: 110px;
+    width: 400px;
+    height: 400px;
+}
+
+.footer{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 280%;
+    width: 100%;
+    height: 100px;
+    background-color: #EE82EE;
+}
